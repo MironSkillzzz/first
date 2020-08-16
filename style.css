@@ -15,7 +15,7 @@ body {
 }
 
 /*Fonts*/
-@font-face{
+@font-face {
   font-family: 'Gotham Black';
   src: url('fonts/Gotham Black.otf');
   font-weight: bold;
@@ -600,4 +600,96 @@ body {
     text-decoration: none;
     display: inline-block;
     border-radius: 2px;
+}
+
+/*Clients*/
+.clients {
+    text-align: center;
+    background-color: #ffc155;
+    padding-top: 140px;
+}
+
+.clients-title {
+    color: #fff;
+    font-family: 'Gotham Black', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.clients-suptitle {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 75px;
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 160px;
+}
+
+.reviews-item {
+    background-color: #fff;
+    width: 48.5%;
+    position: relative;
+    text-align: left;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.reviews-photo {
+    position: absolute;
+    border-radius: 50%;
+    width: 121px;
+    margin-top: 43px;
+    margin-left: 30px;
+}
+
+.reviews-text {
+    margin-top: 50px;
+    margin-left: 182px;
+    position: relative;
+
+    color: #7b7b7b;
+    line-height: 22px;
+}
+
+.marks-start {
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    left: -19px;
+}
+
+.marks-end {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 8px;
+    position: absolute;
+}
+
+.reviews-author {
+    margin-top: 28px;
+    margin-left: 182px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reviews-name {
+    color: #f6772c;
+
+}
+
+.reviews-prof {
+    color: #99a9ae;
 }
